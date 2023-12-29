@@ -1,0 +1,33 @@
+
+<!-- <button type="submit" class="btn btn-primary" (click)="getBookList()" routerLink="/view"></button> -->
+
+
+<br>
+<br>
+<br>
+<br>
+<table style="background-color: black;"  class="table table-striped table-hover">
+    <thead>
+      <tr>
+        
+        <th scope="col">Book Id</th>
+        <th scope="col">Book Name</th>
+        <th scope="col">Book Author</th>
+        <th scope="col">Book Price</th>
+        <th colspan="2"> Actions </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let book of books">
+        <td>{{book.bookId}}</td>
+        <td>{{book.bookName}}</td>
+        <td>{{book.bookAuthor}}</td>
+        <td>{{book.bookPrice}}</td>
+        <td> <button style=" padding: 3px 10px;" class="btn btn-danger" (click)="DeleteBook(book.bookId)">Delete</button></td>
+  
+        <td> <button style=" padding: 3px 10px;" class="btn btn-success" (click)="EditBook(book.bookId)">Edit</button></td>
+      </tr>
+    </tbody>
+  </table>
+
+  

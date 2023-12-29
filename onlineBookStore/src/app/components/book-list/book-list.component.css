@@ -1,0 +1,28 @@
+.heading{
+    text-align: center;
+    color: rgb(200, 228, 239);
+
+}
+.col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0.2);
+
+}
+.button {
+ 
+    padding: 3px 10px;
+    border: 2px solid rgb(8, 86, 141);
+    text-align: center;
+ 
+    color: rgb(19, 20, 21);
+ 
+    font-size: 11px;
+ 
+    margin: 4px 2px;
+ 
+    cursor: pointer;
+ 
+    border-radius: 10px;
+ margin-left: 50px;
+    background-color: white;
+ 
+}

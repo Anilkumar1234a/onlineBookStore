@@ -1,0 +1,19 @@
+.asterisk{
+    content: ' *';
+    color: red;
+  }
+  .valid{
+    color: red;
+  }
+  .alert-success {
+    color: green;
+  }
+  
+  .alert-error {
+    color: red;
+  }
+  /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
